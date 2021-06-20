@@ -7,7 +7,7 @@ from tkinter import messagebox
 
 root=Tk()
 
- root.geometry("500x300")   #Giving a size to our GUI
+root.geometry("500x300")   #Giving a size to our GUI
 root.title("Your Result")   #Giving a title
 
 
