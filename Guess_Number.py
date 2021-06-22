@@ -9,7 +9,7 @@ attempts=8
 
 def help_me():
     # Don't get panic when seeing the lower line
-    messagebox.showinfo("Help","1.Guess the number between 0 to 100 \n2.Defaultly your game is in easy mode and you have 8 attempts \n3.In medium mode you get 6 attempts\n4.In hard mode you not get hint and you get 10 attempts")
+    messagebox.showinfo("Help","1.Guess the number between 0 to 100 \n2.Defaultly your game is in easy mode and you have 8 attempts \n3.In medium mode you get 6 attempts\n4.In hard mode you not get hint and you get 8 attempts")
 
 def medium():
     global attempts
@@ -18,7 +18,7 @@ def medium():
 
 def hard():
     global attempts
-    attempts=10
+    attempts=8
     hint_button.pack_forget()
 
 def hintbutton():
