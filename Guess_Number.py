@@ -9,7 +9,7 @@ attempts=8
 
 def help_me():
     # Don't get panic when seeing the lower line
-    messagebox.showinfo("Help","1.Guess the number between 0 to 100 \n2.Defaultly your game is in easy mode and you have 10 attempts \n3.In medium mode you get 5 attempts\n4.In hard mode you not get hint and you get 15 attempts")
+    messagebox.showinfo("Help","1.Guess the number between 0 to 100 \n2.Defaultly your game is in easy mode and you have 8 attempts \n3.In medium mode you get 6 attempts\n4.In hard mode you not get hint and you get 10 attempts")
 
 def medium():
     global attempts
